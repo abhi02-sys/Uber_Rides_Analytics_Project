@@ -104,8 +104,7 @@ elif menu == "Vehicles":
          st.image("charts/vehicles.png", caption = "Types of Vehicles",use_container_width=True)
     with col2:
         st.image("charts/vehicleType.png", caption = "Vehicle Types- Distance, Fare and Success Rate",use_container_width=True)
-        
- st.markdown(
+st.markdown(
     """
     <style>
     .footer {
